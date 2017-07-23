@@ -11,7 +11,7 @@ be added to the caddy file.
 The new file is placed into /app/data.  This volume should
 be shared with the caddy instance.
 
-When rebuilt, it sends a SIGHUP to the docker instance named caddy
+When rebuilt, it sends a SIGUSR1 to the docker instance named caddy
 
 ## EXAMPLE
 
